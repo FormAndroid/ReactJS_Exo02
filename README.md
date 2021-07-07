@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Exercice collection React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ajouter dans l'application (App) un tableau JavaScript d'étudiant
+	○ Un étudiant est défini par :
+		- Son nom
+		- Son prénom
+		- Son option 	(Informatique, Biologie, Mécanique, ...)
+		- Son sexe  	(Masculin, Féminin, Neutre)
+		- Son résultat	(Sur 100)
 
-## Available Scripts
+## Créer l'ensemble de composant React necessaire pour afficher la liste d'étudiant
 
-In the project directory, you can run:
+## Afficher les résultats en échec (inférieur à 50) en rouge.
 
-### `npm start`
+## Ajouter dynamiquement le grade d'un étudiant lors de l'affichage
+	○ Les grades sont :
+		- E 	> 95
+		- TB 	80 - 95
+		- B 	60 - 79
+		- S 	50 - 59
+		- I 	40 - 49
+		- IG 	< 40
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## (Bonus) Permettre que le résultat soit optionnel.
+    Si un étudiant n'a pas de résultat, écrire "Pas de résultat" en orange.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## (Bonus) Ajout un background (légerement transparent) sur les éléments de la liste 
+    lorsque l'utilisateur la survole avec la souris (hover).
+    La couleur de celui-ci dépend du résultat (Vert, orange et rouge)

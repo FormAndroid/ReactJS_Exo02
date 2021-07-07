@@ -1,0 +1,29 @@
+.studentTable, .studentTable td, .studentTable th {
+    border: 1px solid black; /* Bordure continue noir de 1px */
+    border-collapse: collapse; /* Les bordures de la "table", des "td" et des "th" sont fusionnés */
+    padding: 5px;
+}
+
+.studentTable th {
+    background-color: lightblue;
+}
+
+.resultSuccess {
+    color: rgb(131, 228, 35);
+}
+
+.resultNA {
+    color: orange;
+}
+
+.studentTable tbody tr.success:hover {
+    background-color: rgba(142, 255, 90, 0.1);
+}
+
+.studentTable tbody tr.noResult:hover {
+    background-color: rgba(255, 205, 88, 0.1);
+}
+
+.studentTable tbody tr.bad:hover {
+    background-color: rgba(255, 153, 233, 0.1);
+}
